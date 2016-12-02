@@ -108,6 +108,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		824AF1071DF11E4000405D33 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8266A9BF1DCA764600B1C77F /* Main.storyboard */,
+				8266A9C41DCA764600B1C77F /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		824AF1081DF11EB600405D33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8266A9BD1DCA764600B1C77F /* WeatherVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		824AF1091DF11EDA00405D33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82D8DB601DD4322700C94617 /* CurrentWeather.swift */,
+				82D8DB621DD64F8F00C94617 /* Forecast.swift */,
+				82D8DB5E1DD4265B00C94617 /* Constants.swift */,
+				82D8DB6A1DD79E2300C94617 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		824AF10A1DF121A500405D33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82D8DB681DD6CFD000C94617 /* WeatherCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		8266A9AF1DCA764600B1C77F = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +169,10 @@
 		8266A9BA1DCA764600B1C77F /* MiWeather */ = {
 			isa = PBXGroup;
 			children = (
-				8266A9BD1DCA764600B1C77F /* WeatherVC.swift */,
-				8266A9BF1DCA764600B1C77F /* Main.storyboard */,
-				82D8DB5E1DD4265B00C94617 /* Constants.swift */,
-				82D8DB601DD4322700C94617 /* CurrentWeather.swift */,
-				82D8DB621DD64F8F00C94617 /* Forecast.swift */,
-				82D8DB681DD6CFD000C94617 /* WeatherCell.swift */,
-				82D8DB6A1DD79E2300C94617 /* Location.swift */,
+				824AF1091DF11EDA00405D33 /* Model */,
+				824AF10A1DF121A500405D33 /* View */,
+				824AF1081DF11EB600405D33 /* Controller */,
+				824AF1071DF11E4000405D33 /* Storyboards */,
 				82D8DB6C1DD79EBB00C94617 /* Supporting Files */,
 			);
 			path = MiWeather;
@@ -168,7 +201,6 @@
 			children = (
 				8266A9BB1DCA764600B1C77F /* AppDelegate.swift */,
 				8266A9C21DCA764600B1C77F /* Assets.xcassets */,
-				8266A9C41DCA764600B1C77F /* LaunchScreen.storyboard */,
 				8266A9C71DCA764600B1C77F /* Info.plist */,
 				82AAF4401DE563F3005D53E5 /* PEPSI_pl.ttf */,
 			);
