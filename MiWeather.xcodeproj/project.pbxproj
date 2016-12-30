@@ -121,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				8266A9BD1DCA764600B1C77F /* WeatherVC.swift */,
+				82D8DB681DD6CFD000C94617 /* WeatherCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -134,14 +135,6 @@
 				82D8DB6A1DD79E2300C94617 /* Location.swift */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		824AF10A1DF121A500405D33 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				82D8DB681DD6CFD000C94617 /* WeatherCell.swift */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 		8266A9AF1DCA764600B1C77F = {
@@ -170,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				824AF1091DF11EDA00405D33 /* Model */,
-				824AF10A1DF121A500405D33 /* View */,
 				824AF1081DF11EB600405D33 /* Controller */,
 				824AF1071DF11E4000405D33 /* Storyboards */,
 				82D8DB6C1DD79EBB00C94617 /* Supporting Files */,
